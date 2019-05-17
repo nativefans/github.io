@@ -1765,7 +1765,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff42db;
+  background: #5853ff;
 }
 .feed-link,
 .chat {
@@ -2777,16 +2777,11 @@ ul.breadcrumb li+li:last-child {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-@media screen and (min-width: 1200px) {
-  body {
-    background-image: url("/images/background.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 50% 50%;
-    background-size: cover;
-    background: rgba(255,255,255,0.9);
-  }
-  #footer a {
-    color: #eee;
-  }
+body {
+  background-image: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  background: rgba(255,255,255,0.9);
 }
