@@ -96,19 +96,19 @@
 
 
 
-  <meta name="description" content="装饰器定义：本质是函数，装饰其他函数(为其他函数添加附加功能) 原则：     1. 不能修改被装饰的函数的源代码    2. 不能修改被装饰的函数的调用方式  实现装饰器知识储备 函数即“变量”  高阶函数  把一个函数名当作实参传给另一个函数  返回值中包含函数名    嵌套函数   即高阶函数+嵌套函数=&amp;gt;装饰器  示例代码12345678910111213141516import t">
+  <meta name="description" content="装饰器定义：本质是函数，装饰其他函数(为其他函数添加附加功能) 原则： 1. 不能修改被装饰的函数的源代码 2. 不能修改被装饰的函数的调用方式 实现装饰器知识储备 函数即“变量”  高阶函数  把一个函数名当作实参传给另一个函数  返回值中包含函数名    嵌套函数   即高阶函数+嵌套函数=&amp;gt;装饰器  示例代码12345678910111213141516import timedef t">
 <meta name="keywords" content="python,装饰器">
 <meta property="og:type" content="article">
 <meta property="og:title" content="python之装饰器(decorator)的使用">
 <meta property="og:url" content="http://blog.nativefans.top/2019/05/18/python之装饰器-decorator-的使用/index.html">
 <meta property="og:site_name" content="めあくあ厨的博客">
-<meta property="og:description" content="装饰器定义：本质是函数，装饰其他函数(为其他函数添加附加功能) 原则：     1. 不能修改被装饰的函数的源代码    2. 不能修改被装饰的函数的调用方式  实现装饰器知识储备 函数即“变量”  高阶函数  把一个函数名当作实参传给另一个函数  返回值中包含函数名    嵌套函数   即高阶函数+嵌套函数=&amp;gt;装饰器  示例代码12345678910111213141516import t">
+<meta property="og:description" content="装饰器定义：本质是函数，装饰其他函数(为其他函数添加附加功能) 原则： 1. 不能修改被装饰的函数的源代码 2. 不能修改被装饰的函数的调用方式 实现装饰器知识储备 函数即“变量”  高阶函数  把一个函数名当作实参传给另一个函数  返回值中包含函数名    嵌套函数   即高阶函数+嵌套函数=&amp;gt;装饰器  示例代码12345678910111213141516import timedef t">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://blog.nativefans.top/2019/05/18/python之装饰器-decorator-的使用/1.png">
-<meta property="og:updated_time" content="2019-05-18T15:33:58.451Z">
+<meta property="og:updated_time" content="2019-05-18T15:40:23.485Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python之装饰器(decorator)的使用">
-<meta name="twitter:description" content="装饰器定义：本质是函数，装饰其他函数(为其他函数添加附加功能) 原则：     1. 不能修改被装饰的函数的源代码    2. 不能修改被装饰的函数的调用方式  实现装饰器知识储备 函数即“变量”  高阶函数  把一个函数名当作实参传给另一个函数  返回值中包含函数名    嵌套函数   即高阶函数+嵌套函数=&amp;gt;装饰器  示例代码12345678910111213141516import t">
+<meta name="twitter:description" content="装饰器定义：本质是函数，装饰其他函数(为其他函数添加附加功能) 原则： 1. 不能修改被装饰的函数的源代码 2. 不能修改被装饰的函数的调用方式 实现装饰器知识储备 函数即“变量”  高阶函数  把一个函数名当作实参传给另一个函数  返回值中包含函数名    嵌套函数   即高阶函数+嵌套函数=&amp;gt;装饰器  示例代码12345678910111213141516import timedef t">
 <meta name="twitter:image" content="http://blog.nativefans.top/2019/05/18/python之装饰器-decorator-的使用/1.png">
 
 
@@ -373,7 +373,7 @@
                 
               
 
-              <time title="创建时间：2019-05-18 23:05:01 / 修改时间：23:33:58" itemprop="dateCreated datePublished" datetime="2019-05-18T23:05:01+08:00">2019-05-18</time>
+              <time title="创建时间：2019-05-18 23:05:01 / 修改时间：23:40:23" itemprop="dateCreated datePublished" datetime="2019-05-18T23:05:01+08:00">2019-05-18</time>
             
 
             
@@ -431,9 +431,9 @@
 
       
         <h1 id="装饰器"><a href="#装饰器" class="headerlink" title="装饰器"></a>装饰器</h1><p><strong>定义</strong>：本质是函数，装饰其他函数(为其他函数添加附加功能)</p>
-<p><strong>原则</strong>：
-    1. 不能修改被装饰的函数的源代码<br>    2. 不能修改被装饰的函数的调用方式</p>
-<hr>
+<p><strong>原则</strong>：</p>
+<pre><code>1. 不能修改被装饰的函数的源代码
+2. 不能修改被装饰的函数的调用方式</code></pre><hr>
 <h1 id="实现装饰器知识储备"><a href="#实现装饰器知识储备" class="headerlink" title="实现装饰器知识储备"></a>实现装饰器知识储备</h1><ul>
 <li><p>函数即“变量”</p>
 </li>
@@ -501,6 +501,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/05/21/Telegram机器人和频道创建/" rel="prev" title="创建属于自己的Telegram机器人">
+                创建属于自己的Telegram机器人 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -571,7 +575,7 @@
                 
                   <a href="/archives">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -615,7 +619,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                      
+                    
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
